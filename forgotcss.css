@@ -1,0 +1,104 @@
+body
+{
+		margin: 0;
+		padding: 0;		
+		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100vh;
+		font-family: sans-serif;
+}
+.box
+{
+		width: 600px;
+		padding:  50px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: rgb(247, 247, 247 );
+		border-radius: 15px;
+		border: #1FA907 4px solid;	
+		box-shadow: 0px 6px 45px -11px;
+		text-align: center;
+}
+p
+{
+		font-weight: bold
+		margin: -15px 95px auto;
+		float: left;
+}
+.box input[type="email"]
+{
+		float: left;
+		border: 0;
+		background: none;
+		margin: 1px auto;
+		text-align: left;
+		padding: 14px 10px;
+		width: 490px;
+		border-radius: 5px;
+		border: 2px solid #1FA907;
+		transition: 0.15s;
+}
+/***************************************/
+.box input[type="button"]
+{
+		position: absolute;
+		top: 80%;
+		left: 70%;
+		font-weight: bold;
+		border: 0;
+		background: #1FA907;
+		padding: 10px 10px;
+		margin: 10px auto;
+		text-align: center;
+		width: 75px;
+		cursor: pointer;
+		outline: none;
+		color: white;
+		border-radius: 2px;
+		transition: 0.7s;
+}	
+.box input[type="button"]:hover
+{
+		background-color: #F1B000;
+		color: #1FA907;
+		transition: 0s;
+}
+.box input[type="button"]:active
+{
+		background-color: rgba(255, 186, 3);` 
+		transform: translateY(2px);
+}
+/***************************************/
+.box input[type="submit"]
+{
+		position: absolute;
+		top: 80%;
+		left: 59%;
+		font-weight: bold;
+		border: 0;
+		background: #1FA907;
+		padding: 10px 10px;
+		margin: 10px auto;
+		text-align: center;
+		width: 75px;
+		cursor: pointer;
+		outline: none;
+		color: white;
+		border-radius: 2px;
+		transition: 0.7s;
+}	
+.box input[type="submit"]:hover
+{
+		background-color: #F1B000;
+		color: #1FA907;
+		transition: 0s;
+}
+.box input[type="submit"]:active
+{
+		background-color: rgba(255, 186, 3);` 
+		transform: translateY(2px);
+}
+/***************************************/
